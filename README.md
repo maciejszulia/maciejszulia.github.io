@@ -1,2 +1,2 @@
 # maciejszulia.github.io
-yk
+Just my CV.
