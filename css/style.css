@@ -13,6 +13,11 @@ body {
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
+.italic {
+  font-style: italic;
+  color:#1e2939;
+}
+
 .bio,
 .projects,
 .jobs,
