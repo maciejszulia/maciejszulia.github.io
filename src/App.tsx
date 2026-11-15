@@ -3,52 +3,45 @@ import './App.scss';
 
 const cvData = {
   name: "Maciej Szulia",
-  title: "Mid Front-end / Full-stack Developer",
-  location: "Olsztyn, Poland · remote only",
-  phone: "+48 662 398 126",
+  title: "Senior Full-Stack Developer & AI Lead",
+  location: "Poland, remote or hybrid",
   email: "maciej.szulia@gmail.com",
   linkedin: "linkedin.com/in/maciej-szulia",
   github: "github.com/maciejszulia",
-  profileText: "Front-end and full-stack developer with commercial experience across enterprise CMS, e-commerce and agile software teams. Worked remotely as a mid developer at CoreMedia GmbH – a leading German content management company – building components in TypeScript, React and Java. Strong foundation in computer science from university studies covering algorithms, databases, networking and operating systems. Entrepreneurial mindset backed by 10+ years running an independent business. Currently returning to full-time remote development.",
+  gitlab: "gitlab.com/maciejszulia",
+  profileText: "Senior full-stack developer and AI lead. I design and run information systems that work in production: the www.agrocamping.eu booking website in three languages with its own API and Stripe payments, and a reception panel for bookings, mail and financial records. I lead a team of AI agents (Claude Code, Codex, Hermes) and check every change with tests and type checks before release. Earlier I spent over a year as a Frontend Developer on the CoreMedia project through Dev-heroes and worked on PrestaShop e-commerce. I also wrote Polszczyzna Kontrolowana, a rule set that gives every Polish sentence exactly one meaning.",
   skills: [
-    { name: "Frontend", items: "TypeScript, JavaScript, React, HTML5, CSS3, SCSS" },
-    { name: "Backend & databases", items: "Java, Spring, REST APIs, MySQL, PostgreSQL, Python, SQL" },
-    { name: "CMS & e-commerce", items: "CoreMedia Content Cloud, PrestaShop, InsERT Sello, SEO" },
-    { name: "Infrastructure", items: "Linux (Ubuntu, Debian, Arch, RHEL), Docker, AWS, Bash, Nginx, networking" },
-    { name: "CS fundamentals", items: "Algorithms & data structures, computer architecture, operating systems, computer networks" },
-    { name: "Dev tools", items: "Git, Bitbucket, Jira, VSCode, GitHub Copilot, CI/CD" }
+    { name: "Frontend", items: "TypeScript, JavaScript, React, Next.js, Astro, HTML5, CSS3, SCSS" },
+    { name: "Backend & databases", items: "Node.js, Express, Prisma, Zod, REST APIs, Stripe, MySQL, SQLite, SQL, Python" },
+    { name: "AI & automation", items: "Claude Code, Codex (OMX), Hermes Agent, AI agent orchestration, Claude Code skills" },
+    { name: "Infrastructure", items: "Linux (runit), Docker, k3d (local Kubernetes), GitLab CI/CD, nginx, Tailscale" },
+    { name: "CMS & e-commerce", items: "PrestaShop, InsERT Sello, FreeMarker, Smarty, PHP" },
+    { name: "Dev tools", items: "Git, GitHub, GitLab, Jira" }
   ],
   experiences: [
-    { period: "Aug 2022 – Nov 2023", company: "CoreMedia GmbH", location: "Hamburg, Germany", role: "Mid Front-end / Full-stack Developer", bullets: [
-        "Developed front-end components within CoreMedia Content Cloud CMS using TypeScript, React and SCSS",
-        "Collaborated with international agile team via Jira, Bitbucket and regular code reviews",
-        "Worked with Java/Spring backend services and REST APIs in a full-stack capacity",
-        "Used Docker for local development environments and contributed to CI/CD pipelines",
-        "Leveraged GitHub Copilot to accelerate delivery and maintain code quality"
+    { period: "Jun 2015 – Present", company: "AgroCamping Olsztyn", location: "Olsztyn, Poland", role: "Senior Full-Stack Developer & AI Lead", bullets: [
+        "Design and run the booking system of an accommodation business: www.agrocamping.eu in Polish, English and German with a separate booking API (Next.js, React, TypeScript, Node.js, MySQL, Stripe)",
+        "Reception panel for bookings, stays, Gmail import, WhatsApp messages and financial records (Astro, TypeScript, Express, Prisma, SQLite, Zod)",
+        "Infrastructure: Linux with runit, Docker, k3d, GitLab CI/CD with a self-hosted runner, nginx, Tailscale, weekly security jobs",
+        "Lead a team of AI agents (Claude Code, Codex, Hermes): split work into tasks, set acceptance criteria, review every change; lint, type checks and tests run before each release"
+      ], badge: "" },
+    { period: "Aug 2022 – Nov 2023", company: "Dev-heroes Sp. z o.o.", location: "CoreMedia project", role: "Frontend Developer", bullets: [
+        "Frontend work on the CoreMedia project (enterprise CMS and digital experience platform, Hamburg), outsourced through Dev-heroes",
+        "HTML, SCSS, JavaScript, TypeScript, FreeMarker"
       ], badge: "remote" },
-    { period: "Feb 2022 – Dec 2022", company: "BEL-POL Sp. z o.o.", location: "Olsztyn, Poland", role: "Junior Front-end Developer & CMS Administrator", bullets: [
-        "Built and maintained front-end components using HTML5, CSS and SCSS",
-        "Managed PrestaShop CMS including configuration, plugins and database operations",
-        "Contributed to SEO improvements and digital product delivery"
+    { period: "Feb 2022 – Oct 2022", company: "BEL-POL Sp. z o.o.", location: "Olsztyn, Poland", role: "Front-end Developer, E-commerce & CMS (PrestaShop)", bullets: [
+        "Front-end and e-commerce work on PrestaShop, first part-time during studies, then full-time",
+        "PrestaShop, PHP, Smarty, HTML, CSS, JavaScript, MySQL"
       ], badge: "" },
-    { period: "Jun 2022 – Aug 2022", company: "Dev-Heroes Sp. z o.o.", location: "Wrocław, Poland", role: "Intern Full-stack / Front-end Developer", bullets: [
-        "Internship alongside university studies – worked on front-end and full-stack tasks",
-        "Used Java, SCSS and Git in a fully remote agile environment"
-      ], badge: "remote · intern" },
-    { period: "Jan 2020 – Mar 2021", company: "Pakomat.pl", location: "Olsztyn, Poland", role: "IT Executive & E-commerce Administrator", bullets: [
-        "Managed e-commerce infrastructure including PrestaShop and InsERT Sello",
-        "Maintained backend systems, databases and order processing pipelines"
-      ], badge: "" },
-    { period: "Jun 2015 – Present", company: "AgroCamping Olsztyn", location: "Self-employed", role: "Business Owner & Operations Manager", bullets: [
-        "Founded and independently managed an agritourism and camping business for 10+ years",
-        "Managed all digital systems, online presence and customer communication"
-      ], badge: "self-employed" }
+    { period: "Jan 2020 – Oct 2020", company: "Pakomat.pl", location: "Olsztyn, Poland", role: "IT Executive, E-commerce & CMS", bullets: [
+        "Ran and developed the PrestaShop shop and its integration with InsERT Sello"
+      ], badge: "" }
   ],
-  careerBreakNote: "Career break (late 2023 – present) · Family caregiving responsibilities",
-  education: { degree: "Computer Science (Informatyka)", school: "Uniwersytet Warmińsko-Mazurski w Olsztynie", date: "2017 – ongoing" },
+  education: { degree: "Computer Science (completed), general computer science", school: "University of Warmia and Mazury in Olsztyn, Faculty of Mathematics and Computer Science", date: "2020 – 2024" },
   languages: [
     { name: "Polish", level: "Native" },
-    { name: "English", level: "B2/C1 – technical fluency" }
+    { name: "English", level: "C1" },
+    { name: "German", level: "B2" }
   ]
 };
 
@@ -79,22 +72,22 @@ function App() {
       <header>
         <div className="theme-switch-wrapper">
           <button className="theme-switch" onClick={toggleTheme}>
-            {darkMode ? '☀️ Jasny' : '🌙 Ciemny'}
+            {darkMode ? 'Jasny' : 'Ciemny'}
           </button>
         </div>
         <div className="header-top">
           <img src="/photo.jpg" alt="zdjęcie" className="profile-photo" onError={(e) => (e.currentTarget.style.display = 'none')} />
           <div className="header-title">
-            <div className="tag">✦ CV · 2025 ✦</div>
+            <div className="tag">✦ CV | 2026 ✦</div>
             <h1>Maciej<br /><em>Szulia</em></h1>
-            <p className="subtitle">{cvData.title} — {cvData.location}</p>
+            <p className="subtitle">{cvData.title} | {cvData.location}</p>
           </div>
           <div className="contact-block">
-            <a href={`tel:${cvData.phone}`}>📞 {cvData.phone}</a>
-            <a href={`mailto:${cvData.email}`}>✉️ {cvData.email}</a>
-            <a href={`https://${cvData.linkedin}`} target="_blank">🔗 {cvData.linkedin}</a>
-            <a href={`https://${cvData.github}`} target="_blank">🐙 {cvData.github}</a>
-            <div className="status-dot">🟢 dostępny · tylko zdalnie</div>
+            <a href={`mailto:${cvData.email}`}>{cvData.email}</a>
+            <a href={`https://${cvData.linkedin}`} target="_blank">{cvData.linkedin}</a>
+            <a href={`https://${cvData.github}`} target="_blank">{cvData.github}</a>
+            <a href={`https://${cvData.gitlab}`} target="_blank">{cvData.gitlab}</a>
+            <div className="status-dot">dostępny: zdalnie albo hybrydowo</div>
           </div>
         </div>
       </header>
@@ -134,7 +127,6 @@ function App() {
             </div>
           </div>
         ))}
-        <div className="break-notice">📌 {cvData.careerBreakNote}</div>
       </section>
 
       <section>
@@ -158,8 +150,8 @@ function App() {
       </section>
 
       <footer>
-        <div>Maciej Szulia · CV · Olsztyn</div>
-        <button className="print-btn" onClick={() => window.print()}>💾 Zapisz PDF / Drukuj</button>
+        <div>Maciej Szulia | CV</div>
+        <button className="print-btn" onClick={() => window.print()}>Zapisz PDF / Drukuj</button>
       </footer>
     </div>
   );
