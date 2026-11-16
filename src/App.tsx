@@ -46,14 +46,11 @@ const cvData = {
 };
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => localStorage.getItem('theme') === 'dark');
 
   useEffect(() => {
-    const saved = localStorage.getItem('theme') === 'dark';
-    setDarkMode(saved);
-    if (saved) document.body.classList.add('dark');
-    else document.body.classList.remove('dark');
-  }, []);
+    document.body.classList.toggle('dark', darkMode);
+  }, [darkMode]);
 
   const toggleTheme = () => {
     const newDark = !darkMode;
