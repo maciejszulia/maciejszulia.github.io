@@ -3,13 +3,13 @@ import './App.scss';
 
 const cvData = {
   name: "Maciej Szulia",
-  title: "Senior Full-Stack Developer & AI Lead",
+  title: "Mid-level Full-Stack Developer & AI Engineer",
   location: "Poland, remote or hybrid",
   email: "maciej.szulia@gmail.com",
   linkedin: "linkedin.com/in/maciej-szulia",
   github: "github.com/maciejszulia",
   gitlab: "gitlab.com/maciejszulia",
-  profileText: "Senior full-stack developer and AI lead. I design and run information systems that work in production: the www.agrocamping.eu booking website in three languages with its own API and Stripe payments, and a reception panel for bookings, mail and financial records. I lead a team of AI agents (Claude Code, Codex, Hermes) and check every change with tests and type checks before release. Earlier I spent over a year as a Frontend Developer on the CoreMedia project through Dev-heroes and worked on PrestaShop e-commerce. I also wrote Polszczyzna Kontrolowana, a rule set that gives every Polish sentence exactly one meaning.",
+  profileText: "Mid-level full-stack developer and AI engineer. I design and run information systems that work in production: the www.agrocamping.eu booking website in three languages with its own API and Stripe payments, and a reception panel for bookings, mail and financial records. I lead a team of AI agents (Claude Code, Codex, Hermes) and check every change with tests and type checks before release. Earlier I spent over a year as a Frontend Developer on the CoreMedia project through Dev-heroes and worked on PrestaShop e-commerce. I also wrote Polszczyzna Kontrolowana, a rule set that gives every Polish sentence exactly one meaning.",
   skills: [
     { name: "Frontend", items: "TypeScript, JavaScript, React, Next.js, Astro, HTML5, CSS3, SCSS" },
     { name: "Backend & databases", items: "Node.js, Express, Prisma, Zod, REST APIs, Stripe, MySQL, SQLite, SQL, Python" },
@@ -19,7 +19,7 @@ const cvData = {
     { name: "Dev tools", items: "Git, GitHub, GitLab, Jira" }
   ],
   experiences: [
-    { period: "Jun 2015 – Present", company: "AgroCamping Olsztyn", location: "Olsztyn, Poland", role: "Senior Full-Stack Developer & AI Lead", bullets: [
+    { period: "Jun 2015 – Present", company: "AgroCamping Olsztyn", location: "Olsztyn, Poland", role: "IT and operations", bullets: [
         "Design and run the booking system of an accommodation business: www.agrocamping.eu in Polish, English and German with a separate booking API (Next.js, React, TypeScript, Node.js, MySQL, Stripe)",
         "Reception panel for bookings, stays, Gmail import, WhatsApp messages and financial records (Astro, TypeScript, Express, Prisma, SQLite, Zod)",
         "Infrastructure: Linux with runit, Docker, k3d, GitLab CI/CD with a self-hosted runner, nginx, Tailscale, weekly security jobs",
