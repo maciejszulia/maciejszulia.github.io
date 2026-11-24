@@ -23,3 +23,7 @@ npm run preview   # serves dist/ locally
 ## License and author
 
 Author: Maciej Szulia. The repository has no license file, so no license is granted.
+
+## Documentation
+
+- [Architecture documentation (arc42, diagrams, ADRs)](docs/architecture/README.md)
