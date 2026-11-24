@@ -19,7 +19,7 @@ const cvData = {
     { period: "Jun 2015 – Present", company: "AgroCamping Olsztyn", location: "Olsztyn, Poland", role: "IT and operations", bullets: [
         "Requirements, AI agent coordination, acceptance and releases of the booking website (3 languages, own API, Stripe) and the reception panel (bookings, mail, WhatsApp, financial records)"
       ], badge: "" },
-    { period: "Aug 2022 – Nov 2023", company: "Dev-heroes Sp. z o.o.", location: "CoreMedia project", role: "Frontend Developer", bullets: [
+    { period: "Aug 2022 – Nov 2023", company: "CoreMedia AG", location: "Remote", role: "Frontend Developer", bullets: [
         "Frontend for CoreMedia, a German enterprise CMS vendor: HTML, SCSS, JavaScript, TypeScript, FreeMarker"
       ], badge: "remote" },
     { period: "Mar 2022 – May 2022", company: "P.H.U. BELFLOOR", location: "Olsztyn, Poland", role: "Online store developer (PrestaShop)", bullets: [
